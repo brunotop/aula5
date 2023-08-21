@@ -1,0 +1,64 @@
+/*
+* Primeiro programa em JavaScript
+* Bruno de Freitas
+*/
+console.log("Olá Mundo!");
+//prompt("Qual é o seu nome?");
+const VariavelA = 100;
+const VariavelB = VariavelA + 50;
+const VariavelC = VariavelA / VariavelB;
+console.log(VariavelA);
+console.log(VariavelB);
+console.log(VariavelC);
+
+//Variavel let
+let numero = 5;
+console.log(numero);
+numero = 120 + 5;
+console.log(numero);
+
+//Concatenar textos
+/*let nome = "Bruno";
+let sobrenome = "Leite";
+let idade = 16;
+console.log("Olá", nome, sobrenome, "voce tem ", idade, "anos");
+*/
+//booleanas
+const variavelFalsa = false;
+const variavelVerdadeira = true;
+
+console.log("Variável falsa: " + variavelFalsa);
+console.log("Variável verdadeira: " + variavelVerdadeira);
+
+
+//Exercicio 1
+
+let nome = "bruno";
+let sobrenome = "de Freitas";
+let idade = 16;
+let estudante = true;
+console.log("Olá", nome, sobrenome, "voce tem ", idade, "e seu status de matricula diz que é:", estudante);
+
+
+//typeof
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof estudante);
+
+let banana;
+console.log(typeof banana);
+banana = "fruta";
+console.log(typeof banana);
+
+const vazio = null;
+console.log(typeof vazio);
+
+
+
+//PROMPT
+
+nome = prompt("Qual o seu nome");
+idade = prompt("Qual seria a sua idade");
+console.log(nome, idade);
+console.log(typeof nome);
+console.log(typeof idade);
