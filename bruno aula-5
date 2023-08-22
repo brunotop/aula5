@@ -1,64 +1,74 @@
 /*
-* Primeiro programa em JavaScript
-* Bruno de Freitas
+*Bruno leite
+*
 */
-console.log("Olá Mundo!");
-//prompt("Qual é o seu nome?");
-const VariavelA = 100;
-const VariavelB = VariavelA + 50;
-const VariavelC = VariavelA / VariavelB;
-console.log(VariavelA);
-console.log(VariavelB);
-console.log(VariavelC);
 
-//Variavel let
-let numero = 5;
-console.log(numero);
-numero = 120 + 5;
-console.log(numero);
+/*
+* 1. resposta
 
-//Concatenar textos
-/*let nome = "Bruno";
-let sobrenome = "Leite";
-let idade = 16;
-console.log("Olá", nome, sobrenome, "voce tem ", idade, "anos");
+10
+10 5
+
+* 2. resposta
+
+10 20 10  
+
+* 3. resposta
+
+let horas = prompt("Quantas horas voce trabalha por dia?");
+let dinheiro = prompt("Quanto voce recebe por dia?");
+alert('Voce recebe ${horas/dinheiro} por hora');
+
 */
-//booleanas
-const variavelFalsa = false;
-const variavelVerdadeira = true;
 
-console.log("Variável falsa: " + variavelFalsa);
-console.log("Variável verdadeira: " + variavelVerdadeira);
-
-
-//Exercicio 1
-
-let nome = "bruno";
-let sobrenome = "de Freitas";
-let idade = 16;
-let estudante = true;
-console.log("Olá", nome, sobrenome, "voce tem ", idade, "e seu status de matricula diz que é:", estudante);
-
-
-//typeof
+//exercicio de codigo
+/*
+nome = prompt("Seu nome")
+idade = prompt("Qual sua idade?");
 console.log(typeof nome);
-console.log(typeof idade);
-console.log(typeof estudante);
+console.log(typeof idade);*/
+// esse tipo foi impresso por causa do comando console.log
+// eu notei que na hora da execução, ele abre uma caixinha que executa o que foi colocado
+//no codigo
+/*
+nome = prompt("seu nome");
+idade = prompt("Qual sua idade");
+console.log("Ola", nome, "Voce tem ", idade, "anos");
+*/
 
-let banana;
-console.log(typeof banana);
-banana = "fruta";
-console.log(typeof banana);
+let cor 
+console.log(typeof cor);
+let comida
+console.log(typeof comida);
+let pais
+console.log(typeof pais);
+cor = prompt("A sua cor favorita é preto?");
+console.log(typeof cor);
+comida = prompt("Voce gosta de lasanha?");
+console.log(typeof comida);
+pais = prompt("Voce mora no canada?");
+console.log(typeof pais);
+console.log(cor, "sua cor favorita é preto");
+console.log(comida, "gosta de lasanha");
+console.log(pais, "voce mora no canada");
 
-const vazio = null;
-console.log(typeof vazio);
 
 
+//
+/*
+let a = 10;
+let b = 25;
+let c = null;
+console.log("O valor de a é", a, "Agora o novo valor de a é ", b);
+c = a;
+a = b;
+b = c;
+c = null;
+console.log(a, b, c);*/
 
-//PROMPT
+//
+var valor1 = prompt("Escolha um numero");
+var valor2 = prompt("Escolha outro numero");
+var total = valor1 * valor2;
+console.log("O resultado da multiplicação resultou no valor de ", total)
 
-nome = prompt("Qual o seu nome");
-idade = prompt("Qual seria a sua idade");
-console.log(nome, idade);
-console.log(typeof nome);
-console.log(typeof idade);
